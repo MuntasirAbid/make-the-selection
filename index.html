@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Select Five Preferable Players</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header class="topBanner">
+        <h1>Select Five Preferable Players</h1>
+        <p>
+            All the top players are here, select your most preferable players to continue the game!!
+        </p>
+    </header>
+
+    <main>
+
+        <section class="container">
+
+            <div class="allCards">
+                <div class="card">
+                    <div class="blog-image">
+                        <img src="./images/messi.jpeg">
+                    </div>
+                    <div class="blog-title">
+                        <h2>Messi</h2>
+                    </div>
+                    <button class="buttons" onclick="addToList(this)">Select</button>
+                </div>
+                <div class="card">
+                    <div class="blog-image">
+                        <img src="./images/ozil.jpeg">
+                    </div>
+                    <div class="blog-title">
+                        <h2>Ozil</h2>
+                    </div>
+                    <button class="buttons" onclick="addToList(this)">Select</button>
+                </div>
+                <div class="card">
+                    <div class="blog-image">
+                        <img src="./images/Neymar.jpeg">
+                    </div>
+                    <div class="blog-title">
+                        <h2>Neymar</h2>
+                    </div>
+                    <button class="buttons" onclick="addToList(this)">Select</button>
+                </div>
+                <div class="card">
+                    <div class="blog-image">
+                        <img src="./images/salah.jpeg">
+                    </div>
+                    <div class="blog-title">
+                        <h2>Salah</h2>
+                    </div>
+                    <button class="buttons" onclick="addToList(this)">Select</button>
+                </div>
+                <div class="card">
+                    <div class="blog-image">
+                        <img src="./images/ronaldo.jpeg">
+                    </div>
+                    <div class="blog-title">
+                        <h2>Ronaldo</h2>
+                    </div>
+                    <button class="buttons" onclick="addToList(this)">Select</button>
+                </div>
+                <div class="card">
+                    <div class="blog-image">
+                        <img src="./images/andres.jpeg">
+                    </div>
+                    <div class="blog-title">
+                        <h2>Andres</h2>
+                    </div>
+                    <button class="buttons" onclick="addToList(this)">Select</button>
+                </div>
+            </div>
+
+            <div class="priceSection">
+                <div class="selectedPlayer">
+                    <h1>Selected <span id="total-player-selected">0</span></h1>
+                    <ol id="players" type="1">
+
+                    </ol>
+                </div>
+
+                <div class="budget">
+                    <h1>Budget</h1>
+
+                    <label for="number">Per Player:</label>
+                    <input id="perPlayerBudget" type="number" class="inputField"><br>
+                    <button id="total-expence-perPlayer" class="buttons">Calculate</button><br>
+                    <h4>Player Expenses:$<span id="playerExpensesTotal">00</span></h4>
+                    <label for="text">Manager:</label> <input id="budgetAmmount" type="text" class="inputField"><br>
+                    <label for="text">Coach:</label> <input id="coachBudget" type="text" class="inputField"><br>
+                    <button id="calculate-total" class="buttons">Calculate Total</button><br>
+                    <h4>Total Expenses:$<span id="total">00</span></h4>
+
+                </div>
+            </div>
+
+        </section>
+
+
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>

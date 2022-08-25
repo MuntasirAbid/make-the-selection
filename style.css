@@ -1,0 +1,86 @@
+.topBanner {
+    background-color: black;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.topBanner h1,
+p {
+    color: white;
+}
+
+main {
+    background-color: rgb(22, 75, 66);
+    ;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.allCards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+
+}
+
+.allCards .card {
+    background-color: rgb(21, 110, 95);
+    width: 264px;
+    border: 1px gray solid;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px rgb(119, 113, 113);
+    margin-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.allCards img {
+    height: 320px;
+    width: 264px;
+}
+
+.priceSection {
+    margin-top: 100px;
+    margin-left: 40px;
+}
+
+.selectedPlayer {
+    background-color: rgb(21, 110, 95);
+    border: 1px gray solid;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+.budget {
+    padding: 15px;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-radius: 5px;
+
+    background-color: rgb(21, 110, 95);
+}
+
+.budget h1 {
+    text-align: center;
+}
+
+.inputField {
+    background-color: rgb(21, 110, 95);
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.buttons {
+    background-color: darkblue;
+    color: white;
+    width: 200px;
+    height: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
